@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#e6ffe7"
+    tools:context="com.samkough.foodrecommender.MainActivity">
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="ABOUT"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you like meats..."
+        android:id="@+id/meatButton"
+        android:layout_marginTop="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you like greens..."
+        android:id="@+id/greensButton"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/meatButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you like desserts..."
+        android:id="@+id/dessertButton"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/greensButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/meatImg"
+        android:layout_above="@+id/greensButton"
+        android:layout_alignRight="@+id/aboutButton"
+        android:layout_alignEnd="@+id/aboutButton"
+        android:layout_toEndOf="@+id/aboutButton"
+        android:src="@drawable/meat"
+        android:layout_alignLeft="@+id/aboutButton"
+        android:layout_alignStart="@+id/aboutButton"
+        android:layout_alignTop="@+id/meatButton"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/greensImg"
+        android:src="@drawable/greens"
+        android:layout_alignBottom="@+id/greensButton"
+        android:layout_alignLeft="@+id/meatImg"
+        android:layout_alignStart="@+id/meatImg"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_alignTop="@+id/greensButton"
+        android:layout_alignRight="@+id/meatImg"
+        android:layout_alignEnd="@+id/meatImg"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cakeImg"
+        android:src="@drawable/cake"
+        android:layout_alignRight="@+id/greensImg"
+        android:layout_alignEnd="@+id/greensImg"
+        android:layout_alignTop="@+id/dessertButton"
+        android:layout_alignBottom="@+id/dessertButton"
+        android:layout_alignLeft="@+id/greensImg"
+        android:layout_alignStart="@+id/greensImg"/>
+</RelativeLayout>

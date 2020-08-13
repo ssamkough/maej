@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mailtime</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="compose_email">Compose Email</string>
+</resources>

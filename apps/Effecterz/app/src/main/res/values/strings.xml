@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Effecter</string>
+    <string name="title_activity_about">AboutActivity</string>
+</resources>

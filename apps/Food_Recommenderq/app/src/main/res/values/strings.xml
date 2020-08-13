@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Food Recommender</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_meat">MeatActivity</string>
+    <string name="title_activity_greens">GreensActivity</string>
+    <string name="title_activity_dessert">DessertActivity</string>
+</resources>

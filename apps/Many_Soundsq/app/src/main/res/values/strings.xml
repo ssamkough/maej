@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Many Sounds</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_music">MusicActivity</string>
+    <string name="title_activity_minecraft">MinecraftActivity</string>
+    <string name="title_activity_animal">AnimalActivity</string>
+    <string name="title_activity_machine">MachineActivity</string>
+</resources>
